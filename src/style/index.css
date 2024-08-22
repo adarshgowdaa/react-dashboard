@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .header-logo {
+    background-image: url(../assets/img/header-logo.png);
+  }
+  .hero-img {
+    background-image: url(../assets/img/hero-img.png);
+  }
+  .hero-c1 {
+    background-image: url(../assets/img/hero-c1.png);
+  }
+  .hero-c2 {
+    background-image: url(../assets/img/hero-c2.png);
+  }
+  .hero-c3 {
+    background-image: url(../assets/img/hero-c3.png);
+  }
+  .hero-c4 {
+    background-image: url(../assets/img/hero-c4.png);
+  }
+  .hero-c5 {
+    background-image: url(../assets/img/hero-c5.png);
+  }
+  .hero-c6 {
+    background-image: url(../assets/img/hero-c6.png);
+  }
+  .hero-c7 {
+    background-image: url(../assets/img/hero-c7.png);
+  }
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  overflow-x: hidden;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
