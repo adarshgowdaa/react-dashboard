@@ -1,0 +1,19 @@
+.companyFactsContainer {
+  @apply flex flex-wrap items-center justify-center gap-x-56 gap-y-16 min-[1910px]:flex-nowrap;
+}
+
+.companyFactsHeader {
+  @apply flex w-80 flex-shrink-0 flex-col items-start;
+}
+
+.factsItemsContainer {
+  @apply flex flex-wrap items-center justify-center gap-x-48 gap-y-16 pt-[3px] min-[1910px]:flex-nowrap;
+}
+
+.textContainer {
+  @apply flex h-16 flex-wrap items-start justify-center gap-x-36 gap-y-2.5 min-[1910px]:flex-nowrap;
+}
+
+.teamMembersContainer {
+  @apply flex flex-wrap items-center justify-center gap-x-[30px] gap-y-[30px] pt-14 min-[1910px]:flex-nowrap;
+}

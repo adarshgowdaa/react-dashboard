@@ -1,0 +1,54 @@
+.container {
+  @apply  relative flex w-full flex-col items-start gap-y-[7.5px] pb-80 pl-[50rem] pr-80 pt-[103px] tracking-[0px] pr-0;
+  background-image: linear-gradient(0deg, #f0f8fe, transparent);
+}
+
+.backgroundImage {
+  @apply absolute left-[calc(50%_+_-275.77px_+_-369.23px)] top-12 h-[552px] max-h-full w-[723px] max-w-full flex-shrink-0;
+  background-position: 0px 0px;
+  background-size: 100% 100%;
+}
+
+.sectionTitle {
+  @apply pl-1 pr-[343px] text-center text-[15px] font-semibold uppercase leading-5 tracking-wide text-sky-400;
+}
+
+.titleContainer {
+  @apply flex flex-col justify-end px-1.5 pt-[6px];
+}
+
+.titleText {
+  @apply flex items-center [max-width:471px];
+}
+
+.title {
+  @apply flex-grow text-[42px] font-semibold leading-[50px] text-slate-700;
+}
+
+.iconContainer {
+  @apply flex flex-wrap items-center gap-x-2 gap-y-2 pt-6 min-[1910px]:flex-nowrap;
+}
+
+.iconTitleContainer {
+  @apply flex flex-col items-center pb-[1.1px];
+}
+
+.iconTitle {
+  @apply text-lg font-semibold leading-[31px] text-sky-400;
+}
+
+.textContainer {
+  @apply flex items-end self-stretch pl-7 pt-2 [max-width:483px];
+}
+
+.text {
+  @apply flex-grow font-medium text-gray-500 text-[17px] leading-[29px];
+}
+
+.bottomSVGContainer {
+  @apply absolute inset-x-0 bottom-0 flex h-[135px] flex-shrink-0 items-start;
+}
+
+.svgWrapper {
+  @apply flex h-full w-full flex-shrink-0 flex-col items-center overflow-clip;
+}

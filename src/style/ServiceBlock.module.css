@@ -1,0 +1,24 @@
+.serviceBlock {
+    @apply flex flex-col items-center gap-y-4 text-center;
+  }
+  
+  .imageWrapper {
+    @apply bg-no-repeat [background-position:0px_0px] [background-size:100%_100%];
+    @apply h-56 max-h-full w-[337px] max-w-full flex-shrink-0;
+  }
+  
+  .serviceTitle {
+    @apply text-center text-[23px] font-semibold leading-8 text-slate-700;
+  }
+  
+  .description {
+    @apply flex-grow text-center;
+  }
+  
+  .learnMore {
+    @apply font-semibold text-sky-400;
+  }
+  
+  .icon {
+    @apply h-[18px] w-[18px] flex-shrink-0 text-center;
+  }

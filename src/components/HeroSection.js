@@ -1,5 +1,5 @@
 import IntroSection from "./IntroSection";
-import StrategySection from "./StrategySection";
+import StrategyHeadSection from "./StrategyHeadSection";
 
 export default function HeroSection({ className = "" }) {
   return (
@@ -59,7 +59,7 @@ export default function HeroSection({ className = "" }) {
           </div>
         </div>
       </div>
-      <StrategySection />
+      <StrategyHeadSection />
     </div>
   );
 }

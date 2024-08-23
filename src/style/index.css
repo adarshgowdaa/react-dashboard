@@ -30,6 +30,21 @@
   .hero-c7 {
     background-image: url(../assets/img/hero-c7.png);
   }
+  .web-service-img {
+    background-image: url(../assets/img/web-service.png);
+  }
+  .graphic-service-img {
+    background-image: url(../assets/img/graphic-service.png);
+  }
+  .design-service-img {
+    background-image: url(../assets/img/3d-service.png);
+  }
+  .why-bg-img{
+    background-image: url(../assets/img/why-bg.png);
+  }
+  .member-img1 {
+    background-image: url(../assets/img/member-1.jpeg);
+  }
 }
 
 body {
